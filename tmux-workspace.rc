@@ -1,0 +1,10 @@
+new-window -n vim
+send "vim" C-m
+
+new-window -n terminal
+
+new-window -n work-terminal
+split-window -h
+send "workspace" C-m 
+split-window -v
+send "workspace" C-m
