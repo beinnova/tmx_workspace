@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WORKSPACE="workspace"
-WORKDIR=/home/giorgio/workspace
+WORKDIR=/home/josh/workspace
 
 tmux new -d -s $WORKSPACE
 
